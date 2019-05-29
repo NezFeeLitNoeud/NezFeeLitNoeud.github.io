@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Arial', sans-serif;
+}
+
+.en-tete {
+	border: 1px #dfe1e4 solid;
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+
+#en-tete {
+	width: 42%;
+	height: 45px;
+	border-radius: 30px;
+	border: 1px #dfe1e4 solid;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+ul {
+/*	border: 1px red solid;
+*/	position: relative;
+	top: 77%;
+	left: 10%;
+	width: 80%;
+	height: 30px;
+	font-size: 13px;
+}
+
+li {
+	color: #777777;
+	text-align: center;
+	border-bottom: 3px #1874e8 solid;
+	display: inline-block;
+	height: 25px;
+	padding: 0px 5px 0px 5px;
+	width: 5%;
+}
+
+#logo {
+	width: 6%;
+	position: absolute;
+	left: 2%;
+	top: 20%;
+}
+.conteneur {
+	/*border: 1px blue solid;*/
+	width: 100%;
+	height: 600PX;
+	position: relative;
+}
+
+.presentation, .formation, .experience {
+	position: absolute;
+}
+
+/* PRESENTATION */
+.presentation {
+	left: 57%;
+	top:7%;
+	height: 530px;
+	width: 32%;
+	border-radius: 10px;
+	border: 1px lightgrey solid;
+}
+
+
+#presentation-header {
+	border-bottom: 1px #dfe1e4 solid;
+	height: 160px;
+	font-family: 'Arial', sans-serif;
+	padding-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#presentation-header > img {
+	width: 140px;
+	border-radius: 10px;
+	height: 150px;
+}
+
+#presentation-container {
+padding:15px;
+}
+
+#presentation-container > p {
+	font-size: 13px;
+}
+
+#presentation-container > p > span {
+	color: #1a0cab;	
+}
+
+#contact {
+	line-height: 30px;
+	font-size: 13px;
+}
+
+#contact > p > span {
+	font-weight: bold;
+}
+
+#recherche {
+	display: flex;
+	padding-top:10px;
+
+}
+
+#recherche > a {
+	height: 60px;
+	width: 60px;
+	margin-right: 20px;
+}
+
+/* FORMATION */
+.formation {
+	top: 5%; 
+	left: 10%;
+	height: 300px;
+	width: 40%;
+	/*border: 1px orange solid;*/
+}
+
+.formation > p:nth-child(2){
+	font-size: 13px;
+	color: #006720;
+	line-height: 20px;
+}
+
+.formation > p:nth-child(3){
+	font-size: 14px;
+	color: #545454;
+}
+
+.formation > h3 {
+	font-weight: normal;
+	color: #1a0cab;
+}
+
+.grid {
+	display: flex;
+	flex:1;
+	width: 95%;
+	/*margin-top: 4%;*/
+	margin-left: 5%;
+	height: 150px;
+}
+
+.row {
+	/*border: 1px blue solid;*/
+	flex-direction: row;
+	flex:1;
+}
+
+.col{
+	/*border: 1px pink solid;*/
+	padding-left: 10px;
+	padding-top: 15px;
+	flex-direction: column;
+	flex:1;
+	height: 60px;
+}
+
+.col > p {
+	font-size: 13px;
+}
+
+.col > h5 {
+	font-weight: normal;
+	color:#1a0cab;
+	font-size: 15px;
+}
+
+/* EXPERIENCE */
+.experience {
+	top: 55%;
+	left: 10%;
+	height: 300px;
+	width: 41.5%;
+	/*border: 1px orange solid;*/
+}
+
+.grid_xp {
+	border: 1px #dfe1e4 solid;
+	border-radius: 10px;
+	height: 300px;
+}
+
+.row_xp {
+	height: 100px;
+	/*border: 1px red solid;*/
+}
+
+.row_xp > img {
+	/*border: 1px red solid;*/
+	width: 90px;
+	height: 90px;
+}
+
+.texte {
+	/*border: 1px yellow solid;*/
+/*	position: absolute;*/
+/*	left: 20%;
+	top: 7%;*/
+	margin-left: 25%;
+	width: 80%;
+	line-height: 50px;
+}
+
+.texte > h4 {
+	color: #1a0cab;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.texte > p {
+	color: #006720;
+	font-size: 15px;
+}
+
+.texte > p > span {
+	color: #777777;
+	font-size: 12px;
+}
+
+.row_xp:nth-child(2){
+	border-top :1px #dfe1e4 solid;
+	border-bottom: 1px #dfe1e4 solid;
+}
+#simplon {
+	position: absolute;
+	/*border: 1px red solid;*/
+	top:7%;
+	left: 2%;
+}
+
+#sanmarina {
+	position: absolute;
+	/*border: 1px red solid;*/
+	top:41%;
+	left: 2%;
+}
+
+#mcdo {
+	position: absolute;
+	/*border: 1px red solid;*/
+	top:74%;
+	left: 2%;
+}
