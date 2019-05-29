@@ -41,12 +41,12 @@ ul {
 li {
 	color: #777777;
 	text-align: center;
-	border-bottom: 3px #1874e8 solid;
 	display: inline-block;
 	height: 25px;
 	padding: 0px 5px 0px 5px;
 	width: 5%;
 }
+
 
 #logo {
 	width: 6%;
@@ -185,13 +185,18 @@ padding:15px;
 
 /* EXPERIENCE */
 .experience {
-	top: 55%;
+	top: 60%;
 	left: 10%;
 	height: 300px;
 	width: 41.5%;
 	/*border: 1px orange solid;*/
 }
 
+.experience > h5 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #212121;
+}
 .grid_xp {
 	border: 1px #dfe1e4 solid;
 	border-radius: 10px;
@@ -242,20 +247,20 @@ padding:15px;
 #simplon {
 	position: absolute;
 	/*border: 1px red solid;*/
-	top:7%;
+	top:15%;
 	left: 2%;
 }
 
 #sanmarina {
 	position: absolute;
 	/*border: 1px red solid;*/
-	top:41%;
+	top:48%;
 	left: 2%;
 }
 
 #mcdo {
 	position: absolute;
 	/*border: 1px red solid;*/
-	top:74%;
+	top:82%;
 	left: 2%;
 }
