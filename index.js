@@ -12,7 +12,6 @@ document.querySelectorAll(".cacher").forEach(div => {
 		div.style.display = "block";
 		document.getElementById("grid").style.height = "605px";
 		moreExperience.innerHTML = "Moins de resultat pour \"Experience\"";
-
 	}
 	
 })
