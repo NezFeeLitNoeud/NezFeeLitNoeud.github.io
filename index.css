@@ -47,6 +47,11 @@ li {
 	width: 5%;
 }
 
+#first-li {
+	border-bottom: 3px #1874e8 solid;
+	color: #1874e8;
+	font-weight: bold;
+}
 
 #logo {
 	width: 6%;
@@ -289,11 +294,28 @@ padding:15px;
 	height: 80px;
 	width: 100px;
 }
-
-/*#hidden, #hidden1, #hidden2 {
-	display: none;
-}*/
-
 .cacher {
 	display: none;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
+
+.en-tete {
+/*	border: 1px red solid;
+*/	width: 140%;
+	}
+
+#en-tete {
+/*	border:1px red solid;
+*/	height: 30px;
+	width: 80%;
+	top: 45%;	
+}
+
+#logo {
+	width: 15%;
+	left: 40%;
+	top: 10%;
+}
 }
