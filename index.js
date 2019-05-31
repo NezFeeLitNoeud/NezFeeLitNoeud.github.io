@@ -1,4 +1,3 @@
-
 let moreExperience = document.getElementById("more"); // Lien a
 
 moreExperience.addEventListener("click", function(){
