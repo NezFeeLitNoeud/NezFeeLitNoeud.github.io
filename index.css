@@ -298,17 +298,24 @@ padding:15px;
 	display: none;
 }
 
+#more {
+	text-decoration: none;
+}
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
+#more:hover {
+	text-decoration: underline;
+}
+@media only screen and (max-width: 375px) 
+and (max-height: 850px)/* and (-webkit-device-pixel-ratio: 2)*/ { 
 
+ /*BARRE DE NAVIGUATION */
 .en-tete {
-/*	border: 1px red solid;
-*/	width: 140%;
+	width: 140%;
 	}
 
 #en-tete {
-/*	border:1px red solid;
-*/	height: 30px;
+	border:1px red solid;
+	height: 30px;
 	width: 80%;
 	top: 45%;	
 }
@@ -318,4 +325,15 @@ padding:15px;
 	left: 40%;
 	top: 10%;
 }
+
+ /*PRESENTATION */
+
+.presentation {
+border: 1px red solid;
+left: 5%;
+top: 2%;
+width: 130%;
+
 }
+}
+
