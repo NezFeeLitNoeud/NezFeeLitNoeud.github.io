@@ -310,13 +310,13 @@ and (max-height: 896px)/* and (-webkit-device-pixel-ratio: 2)*/ {
 
  /*BARRE DE NAVIGUATION */
 .en-tete {
-	width: 140%;
+	width: 120%;
 	}
 
 #en-tete {
 	border:1px red solid;
 	height: 30px;
-	width: 80%;
+	width: 70%;
 	top: 45%;	
 }
 
