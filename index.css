@@ -333,27 +333,31 @@ body {
 .presentation {
 left: 2%;
 top: 2%;
-width: 123%;
+width: 126%;
 
 }
 
 /* FORMATION */
 .formation {
-	width: 123%;
+	width: 121%;
 	left: 2%;
 	top: 95%;
 	border-radius: 10px;
-	height: 350px;
+	height: 340px;
 	border: 1px lightgrey solid;
-
+	padding: 10px;
 }
 
 .experience {
-	width: 123%;
+	width: 126%;
 	left: 2%;
 	top: 158%;
 	border-radius: 10px;
 	height: 340px;
+}
+
+.col {
+	margin-top: 10px;
 }
 
 #simplon{
