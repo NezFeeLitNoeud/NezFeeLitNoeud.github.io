@@ -308,32 +308,77 @@ padding:15px;
 @media only screen and (max-width: 414px) 
 and (max-height: 896px)/* and (-webkit-device-pixel-ratio: 2)*/ { 
 
+body {
+	overflow: scroll;
  /*BARRE DE NAVIGUATION */
+}
 .en-tete {
-	width: 120%;
+	width: 125%;
 	}
 
 #en-tete {
-	border:1px red solid;
 	height: 30px;
-	width: 70%;
+	width: 80%;
 	top: 45%;	
 }
 
 #logo {
 	width: 15%;
-	left: 40%;
+	left: 45%;
 	top: 10%;
 }
 
  /*PRESENTATION */
 
 .presentation {
-border: 1px red solid;
-left: 6%;
+left: 2%;
 top: 2%;
 width: 120%;
 
 }
+
+/* FORMATION */
+.formation {
+	width: 120%;
+	left: 2%;
+	top: 95%;
+	border-radius: 10px;
+	height: 350px;
+}
+
+.experience {
+	width: 120%;
+	left: 2%;
+	top: 158%;
+	border-radius: 10px;
+	height: 340px;
+}
+
+#mcdo {
+	top: 77%;
+	left: 5%;
+	height: 60px;
+	width: 60px;
+}
+
+#c-a {
+	top: 108%;
+	left: 5%;
+	height: 60px;
+	width: 70px;
+}
+
+#smarina {
+	left: 2%;
+	top: 130%;
+}
+
+#beryl {
+	top: 166%;
+	left: 5%;
+	height: 60px;
+	width: 70px;
+}
+
 }
 
