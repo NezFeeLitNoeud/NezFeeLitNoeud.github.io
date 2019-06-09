@@ -313,7 +313,7 @@ body {
  /*BARRE DE NAVIGUATION */
 }
 .en-tete {
-	width: 125%;
+	width: 127%;
 	}
 
 #en-tete {
@@ -333,25 +333,32 @@ body {
 .presentation {
 left: 2%;
 top: 2%;
-width: 120%;
+width: 123%;
 
 }
 
 /* FORMATION */
 .formation {
-	width: 120%;
+	width: 123%;
 	left: 2%;
 	top: 95%;
 	border-radius: 10px;
 	height: 350px;
+	border: 1px lightgrey solid;
+
 }
 
 .experience {
-	width: 120%;
+	width: 123%;
 	left: 2%;
 	top: 158%;
 	border-radius: 10px;
 	height: 340px;
+}
+
+#simplon{
+	width: 80px;
+	height:80px;
 }
 
 #mcdo {
