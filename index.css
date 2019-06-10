@@ -333,25 +333,25 @@ body {
 .presentation {
 left: 2%;
 top: 2%;
-width: 126%;
+width: 130%;
 
 }
 
 /* FORMATION */
 .formation {
-	width: 121%;
+	width: 125%;
 	left: 2%;
 	top: 95%;
 	border-radius: 10px;
-	height: 340px;
+	height: 360px;
 	border: 1px lightgrey solid;
 	padding: 10px;
 }
 
 .experience {
-	width: 126%;
+	width: 130%;
 	left: 2%;
-	top: 158%;
+	top: 165%;
 	border-radius: 10px;
 	height: 340px;
 }
