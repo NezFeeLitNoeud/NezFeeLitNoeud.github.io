@@ -500,6 +500,16 @@ width: 130%;
 	display: none;
 }
 
+.en-tete > img:first-child {
+top: 50%;
+left: 85%;
+}
+
+.en-tete > img:nth-child(2) {
+top: 50%;
+left: 80%;
+}
+
 }
 
 
