@@ -16,6 +16,28 @@ body {
 	position: relative;
 }
 
+.en-tete > img:first-child {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	z-index: 100;
+}
+
+.en-tete > img:nth-child(2) {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 47%;
+	top: 25%;
+	z-index: 100;
+}
+
+input:hover {
+	box-shadow: 0px 0px 10px lightgrey;
+}
+
 #en-tete {
 	width: 42%;
 	height: 45px;
@@ -31,7 +53,7 @@ body {
 ul {
 /*	border: 1px red solid;
 */	position: relative;
-	top: 77%;
+	top: 62%;
 	left: 10%;
 	width: 80%;
 	height: 30px;
@@ -197,6 +219,13 @@ padding:15px;
 	/*border: 1px orange solid;*/
 }
 
+.experience > h4{
+color: #212121;
+text-decoration: none;
+font-size: 14px;
+display: block;
+}
+
 .experience > h5 {
 	font-size: 18px;
 	font-weight: normal;
@@ -305,6 +334,35 @@ padding:15px;
 #more:hover {
 	text-decoration: underline;
 }
+
+.competence {
+/*border: 1px red solid; */
+margin-top: 5%;
+display: flex;
+color: #1a0cab; 
+font-size: 14px;
+line-height: 20px;
+}
+
+.competence > h1{
+font-family: "Arial", sans-serif;
+font-size: 15px;
+text-decoration: none;
+}
+
+.competence-left{
+/*border: 1px red solid;*/
+flex:1;
+}
+
+span {
+	font-weight: bold;
+}
+.competence-right{
+	/*border: 1px blue solid;*/
+	flex:1;
+}
+
 @media only screen and (max-width: 414px) 
 and (max-height: 896px)/* and (-webkit-device-pixel-ratio: 2)*/ { 
 
