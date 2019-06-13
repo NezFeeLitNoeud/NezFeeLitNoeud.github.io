@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +9,7 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: 'Arial', sans-serif;
+	overflow-x: hidden;
 }
 
 .en-tete {
@@ -341,7 +344,7 @@ margin-top: 5%;
 display: flex;
 color: #1a0cab; 
 font-size: 14px;
-line-height: 20px;
+line-height: 30px;
 }
 
 .competence > h1{
@@ -363,6 +366,50 @@ span {
 	flex:1;
 }
 
+#footer {
+	width: 100%;
+	color: #cfced0;
+	border: 1px #e4e4e4 solid;
+	height: 50px;
+	margin-top: 420px;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding-top: 2%;
+	font-family: "Roboto Mono", monospace;
+
+}
+
+.more {
+	margin-top: 5%;
+	text-align: center;
+	font-size: 30px;
+	color: #fbbc05;
+	width: 100%;;
+	height: 100px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.more > p > span:first-child {
+	color: #4285f4;
+}
+
+.more > p > span:nth-child(2){
+	color: #ea4334;
+}
+
+.more > p > span:nth-child(3){
+	color: #4285f4;
+}
+
+.more > p > span:nth-child(4){
+	color: #34a853;
+}
+
+.more > p:last-child {
+	color: #4285f4;
+	font-size: 15px;
+	letter-spacing: 10px;
+}
 @media only screen and (max-width: 414px) 
 and (max-height: 896px)/* and (-webkit-device-pixel-ratio: 2)*/ { 
 
@@ -450,4 +497,5 @@ width: 130%;
 }
 
 }
+
 
