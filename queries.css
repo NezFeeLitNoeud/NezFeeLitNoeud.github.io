@@ -1,0 +1,198 @@
+@media only screen and (max-width: 414px) 
+and (max-height: 896px)/* and (-webkit-device-pixel-ratio: 2)*/ { 
+
+body {
+	overflow: scroll;
+ /*BARRE DE NAVIGUATION */
+}
+.en-tete {
+	width: 133%;
+	}
+
+#en-tete {
+	height: 30px;
+	width: 80%;
+	top: 45%;	
+}
+
+#logo {
+	width: 15%;
+	left: 45%;
+	top: 10%;
+}
+
+ /*PRESENTATION */
+
+.presentation {
+left: 2%;
+top: 2%;
+width: 130%;
+
+}
+
+/* FORMATION */
+.formation {
+	width: 125%;
+	left: 2%;
+	top: 95%;
+	border-radius: 10px;
+	height: 360px;
+	border: 1px lightgrey solid;
+	padding: 10px;
+}
+
+.experience {
+	width: 126%;
+	left: 2%;
+	top: 165%;
+	border-radius: 10px;
+	height: 340px;
+}
+
+.col {
+	margin-top: 10px;
+}
+
+#simplon{
+	width: 80px;
+	height:80px;
+}
+
+#mcdo {
+	top: 77%;
+	left: 5%;
+	height: 60px;
+	width: 60px;
+}
+
+#c-a {
+	top: 108%;
+	left: 5%;
+	height: 60px;
+	width: 70px;
+}
+
+#smarina {
+	left: 2%;
+	top: 130%;
+}
+
+#beryl {
+	top: 166%;
+	left: 5%;
+	height: 60px;
+	width: 70px;
+}
+
+#footer {
+	display: none;
+}
+
+.en-tete > img:first-child {
+top: 50%;
+left: 85%;
+}
+
+.en-tete > img:nth-child(2) {
+top: 50%;
+left: 80%;
+}
+
+}
+
+
+@media screen and (max-width: 1150px){
+
+body {
+	
+	/*background-color: red;*/
+}
+
+.col > p {
+	font-size: 12px;
+}
+
+.col > h5 {
+	font-size: 14px;
+}
+
+.experience {
+	/*border: 1px blue solid;*/
+	top: 65%;
+}
+
+#footer {
+	margin-top: 430px;
+}
+
+#recherche > a {
+	height: 50px;
+	width: 50px;
+}
+
+.row_xp > img {
+	/*border: 1px blue solid;*/
+	height: 80px;
+	width: 80px;
+}
+
+#presentation-header > img {
+	/*border: 1px blue solid;*/
+	width: 130px;
+	height: 140px;
+}
+}
+
+@media screen and (max-width: 970px){
+
+	#logo {
+		width: 7%;
+		top: 30%;
+	}
+	body {
+		/*background-color: green;*/
+	}
+
+	.col > p {
+	font-size: 11px;
+	}
+
+	.col > h5 {
+	font-size: 13px;
+	}
+
+.experience {
+	/*border: 1px blue solid;*/
+	top: 65%;
+}
+
+#footer {
+	margin-top: 410px;
+}
+#recherche > a {
+	height: 35px;
+	width: 35px;
+}
+
+.row_xp > img {
+	/*border: 1px blue solid;*/
+	height: 65px;
+	width: 65px;
+}
+
+#presentation-header > img {
+	/*border: 1px blue solid;*/
+	width: 130px;
+	height: 140px;
+}
+
+#presentation-header > h1{
+	/*color: red;*/
+	font-size:20px;
+}
+
+.presentation {
+	height: 550px;
+}
+}
+
