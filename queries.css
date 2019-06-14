@@ -196,3 +196,125 @@ body {
 }
 }
 
+@media screen and (max-width: 1150px){
+
+body {
+	
+	/*background-color: red;*/
+}
+
+.col > p {
+	font-size: 12px;
+}
+
+.col > h5 {
+	font-size: 14px;
+}
+
+.experience {
+	/*border: 1px blue solid;*/
+	top: 65%;
+}
+
+#footer {
+	margin-top: 430px;
+}
+
+#recherche > a {
+	height: 50px;
+	width: 50px;
+}
+
+.row_xp > img {
+	/*border: 1px blue solid;*/
+	height: 80px;
+	width: 80px;
+}
+
+#presentation-header > img {
+	/*border: 1px blue solid;*/
+	width: 130px;
+	height: 140px;
+}
+}
+
+@media screen and (max-width: 800px){
+
+
+#presentation-header > h1{
+	/*color: red;*/
+	display: none;
+}
+
+#presentation-container > p {
+	font-size: 10Px;
+}
+
+#contact {
+	line-height: 20px;
+	font-size: 10px;
+}
+
+.experience {
+	top: 100%;
+	/*border: 1PX red solid;*/
+	width: 80%;
+	/*display: none;*/
+}
+
+.col > p {
+	font-size: 10px;
+}
+
+.col > h5 {
+	font-size: 12px;
+}
+
+.grid {
+margin-left: 0;
+	/*border: 1px blue solid;*/
+height: 400px;
+width: 100%;
+}
+
+.col {
+	height: 30%;
+}
+
+.formation > p:nth-child(2){
+	font-size: 10px;
+}
+
+.formation > p:nth-child(3){
+font-size: 13px;
+}
+
+.formation > h3 {
+	font-weight: normal;
+	color: #1a0cab;
+}
+
+#footer {
+	display: none;
+}
+
+.en-tete > img:first-child {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 49%;
+	top: 27%;
+	z-index: 100;
+}
+
+.en-tete > img:nth-child(2) {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 45%;
+	top: 27%;
+	z-index: 100;
+}
+
+}
+
